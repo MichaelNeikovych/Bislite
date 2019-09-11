@@ -310,10 +310,9 @@ body {
     margin-top: 27px;
 }
 .clients {
+    float: right;
     width: 480px;
     position: relative;
-    float: right;
-    margin-bottom: 100px; /* УБРАТЬ ПОЗЖЕ !!!!!!!!!!!!!!*/
 }
 .clients::before {
     content: url('../img/clients.png');
@@ -337,4 +336,65 @@ body {
 }
 .block {
     margin-top: 20px;
+}
+.download {
+    background: #e8fcfe;
+    border: 1px solid #81e4ed;
+    margin: 40px 0 40px;
+    position: relative;
+}
+.download_text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 26px;
+    color: #363636;
+    width: 635px;
+    padding: 30px 0 30px 25px;
+    margin: 0;
+    font-weight: 500;
+}
+.download_button {
+    text-transform: uppercase;
+    color: #0d0707;
+    background: #7fe2ec; /* ДОБАВИТЬ ГРАДИЕНТ !!!!!! */
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 20px 20px 70px;
+    border-radius: 5px;
+    border: 1px solid #2aacc8;
+    font-size: 18px;
+    position: absolute;
+    top: 37px;
+    right: 40px;
+    box-shadow: 0 4px 4px #bfd0d1;
+}
+.download_button:active {
+    box-shadow: none;
+}
+.download_button::before {
+    content: url('../img/download.png');
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+
+/* FOOTER */
+.footer {
+    background: #e8ebf1;
+    padding: 32px 0 47px;
+}
+.about_block {
+    width: 240px;
+}
+.footer_title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.footer_text {
+    font-size: 14px;
+    color: #363636;
 }
