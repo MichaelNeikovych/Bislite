@@ -248,11 +248,29 @@ body {
     border-bottom: 1px solid #dfe1e5;
     padding: 20px 0 40px;
 }
-.works_img {
+.dropdown_block {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
     margin-right: 40px;
-    background: #2aacc8;
-    background-size: 81px 220px;
 }
-.works_img:last-child {
+.dropdown_block:last-child {
     margin-right: 0;
+}
+.dropdown {
+    width: 220px;
+    height: 81px;
+    background-color: #2aacc8;
+    text-align: center;
+    position: absolute;
+    top: 79px;
+    left: -5000px;
+}
+.dropdown_icons {
+    margin: 27px 15px 0 18px;
+}
+.dropdown_block:hover .dropdown {
+    left: 0;
+    transition-duration: 0.3s;
 }
