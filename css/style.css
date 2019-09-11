@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: 0.1px solid red;   ПОЗЖЕ УБРАТЬ */
 }
 @font-face {
     font-family: 'Lato', sans-serif;
@@ -10,11 +9,13 @@ body {
     margin: 0;
 }
 .container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
-.clearfix {
+.clearfix::after {
+    content: ' ';
     clear: both;
+    display: block;
 }
 
 
@@ -110,14 +111,13 @@ body {
     background-image: url('../img/paper-coffee-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 440px; /* ПОЗЖЕ УБРАТЬ */
 }
 .slider_text {
     font-family: 'Lato', Arial, sans-serif;
     font-size: 50px;
     font-weight: 400;
     color: #fff;
-    padding: 90px 0 0 60px;
+    padding: 90px 0 110px 60px;
     width: 350px;
     margin: 0;
 }
@@ -237,7 +237,7 @@ body {
     background-image: url('../img/arrow_right.png');
     background-position: 7px;
 }
-.header_latest_works {
+.header_latest_works_title {
     float: left;
 }
 .header_latest_works_buttons {
