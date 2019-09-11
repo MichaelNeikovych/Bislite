@@ -384,17 +384,39 @@ body {
 .footer {
     background: #e8ebf1;
     padding: 32px 0 47px;
+    border-top: 1px solid #d9d9d9;
 }
 .about_block {
     width: 240px;
+    display: inline-block;
+    vertical-align: top;
 }
 .footer_title {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 .footer_text {
     font-size: 14px;
     color: #363636;
+    margin-top: 20px;
+}
+.explore_block, .browse_block, .contact_block {
+    display: inline-block;
+    vertical-align: top;
+}
+.explore_brow_nav {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.explore_brow_links{
+    color: #363636; 
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 26px;
+}
+.about_block, .explore_block, .browse_block, .contact_block {
+    margin-right: 65px;
 }
