@@ -23,12 +23,16 @@ body {
 .header {
     background: #e8ebf1;
 }
+.logo_wrap {
+    padding: 27px 0 37px;
+    float: left;
+}
 .header_logo {
     font-family: 'Lato', Arial, sans-serif;
     font-size: 50px;
     font-weight: 900;
-    float: left;
-    padding: 27px 0 37px;
+    color: black;
+    text-decoration: none;
 }
 .span_logo {
     color: #2aacc8;
@@ -273,4 +277,64 @@ body {
 .dropdown_block:hover .dropdown {
     left: 0;
     transition-duration: 0.3s;
+}
+
+
+/* TESTIMONIALS */
+.testimonials_description {
+    width: 440px;
+    position: relative;
+    float: left;
+}
+.testimonials_title, .clients_title {
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 0 0 40px;
+}
+.testimonials_description::before {
+    content: url('../img/comments.png');
+    position: absolute;
+    top: 20px;
+}
+.testimonials_text {
+    font-size: 14px;
+    color: #363636;
+    line-height: 24px;
+}
+.testimonials_signature {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 27px;
+}
+.clients {
+    width: 480px;
+    position: relative;
+    float: right;
+    margin-bottom: 100px; /* УБРАТЬ ПОЗЖЕ !!!!!!!!!!!!!!*/
+}
+.clients::before {
+    content: url('../img/clients.png');
+    position: absolute;
+    top: 20px;
+}
+.client {
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid #e8ebf1;
+    /*background: ; ДОБАВИТЬ ГРАДИЕНТ!!!!!!!!!!!!!!!  */
+}
+.clients_block {
+    display: inline-block;
+    vertical-align: top;
+}
+.vertical_align {
+    padding-top: 30px;
+}
+.block {
+    margin-top: 20px;
 }
