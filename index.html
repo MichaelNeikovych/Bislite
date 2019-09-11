@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header clearfix">
         <div class="container">
             <div class="header_logo">Bis<span class="span_logo">Lite</span></div>
             <nav class="nav">
@@ -38,7 +38,6 @@
                 --><li class="nav_items"><a href="#" class="nav_links">contact us</a></li>
                 </ul>
             </nav>
-            <div class="clearfix"></div>
         </div>
     </header>
 
@@ -60,10 +59,9 @@
     <section class="advantages_bg">
         <div class="container">
             <div class="advantages_block">
-                <div class="advantages_icon_title">
+                <div class="advantages_icon_title clearfix">
                     <div class="advantages_icon"></div>
                     <h2 class="advantages_title">Clean Theme</h2>
-                    <div class="clearfix"></div>
                 </div>
                 <p class="advantages_text">Ut nec lorem id orci convallis porta. Donec 
                     pharetra neque eu velit dictum molestie. 
@@ -73,10 +71,9 @@
                 <a href="#" class="advantages_link">Read More</a>
             </div><!--
         --><div class="advantages_block">
-                    <div class="advantages_icon_title">
+                    <div class="advantages_icon_title clearfix">
                         <div class="advantages_icon advantages_icon_second"></div>
                         <h2 class="advantages_title">Responsive Design</h2>
-                        <div class="clearfix"></div>
                     </div>
                     <p class="advantages_text">Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed 
@@ -86,10 +83,9 @@
                     <a href="#" class="advantages_link">Read More</a>
                 </div><!--
             --><div class="advantages_block">
-                <div class="advantages_icon_title">
+                <div class="advantages_icon_title clearfix">
                     <div class="advantages_icon advantages_icon_third"></div>
                     <h2 class="advantages_title">Fully layerd PSD</h2>
-                    <div class="clearfix"></div>
                 </div>
                 <p class="advantages_text"> Phasellus lobortis metus non augue sodales 
                     volutpat. Vestibulum sit amet nibh eros, hendrerit venenatis est. 
@@ -98,10 +94,9 @@
                 <a href="#" class="advantages_link">Read More</a>
             </div><!--
         --><div class="advantages_block">
-                <div class="advantages_icon_title">
+                <div class="advantages_icon_title clearfix">
                     <div class="advantages_icon advantages_icon_fourth"></div>
                     <h2 class="advantages_title">Ready for coding</h2>
-                    <div class="clearfix"></div>
                 </div>
                 <p class="advantages_text">Vivamus convallis feugiat mauris sed posuere. 
                     Nam rutrum, quam quis euismod commodo, elit est porta quam, non 
@@ -113,21 +108,23 @@
     </section>
 
     <section class="latest_works container">
-        <div class="header_latest_works">
-            <div class="latest_works_cursor"></div>
-            <h2 class="latest_works_title">Latest works</h2>
-        </div>
-        <div class="header_latest_works_buttons">
-            <a href="#"><div class="works_buttons"></div></a>
-            <a href="#"><div class="works_buttons works_buttons_second"></div></a>
-        </div>
-        <div class="clearfix"></div>
+        <header class="header_latest_works clearfix">
+            <div class="header_latest_works_title">
+                <div class="latest_works_cursor"></div>
+                <h2 class="latest_works_title">Latest works</h2>
+            </div>
+            <div class="header_latest_works_buttons">
+                <a href="#"><div class="works_buttons"></div></a>
+                <a href="#"><div class="works_buttons works_buttons_second"></div></a>
+            </div>
+        </header>
         <div class="latest_works_img">
-            <img src="img/check_mark.jpg" alt="works" class="works_img"><!--
+           <img src="img/check_mark.jpg" alt="works" class="works_img"><!--
         --><img src="img/lemon.jpg" alt="works" class="works_img"><!--
         --><img src="img/figure.jpg" alt="works" class="works_img"><!--
         --><img src="img/darts.jpg" alt="works" class="works_img">
         </div>
+
     </section>
 
 </body>
