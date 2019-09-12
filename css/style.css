@@ -203,6 +203,10 @@ body {
     text-decoration: none;
     font-size: 13px;
 }
+.advantages_link:hover {
+    color: #000;
+    transition-duration: 0.5s;
+}
 
 
 /* LATEST WORKS */
@@ -325,7 +329,6 @@ body {
     text-align: center;
     padding-top: 18px;
     border: 1px solid #e8ebf1;
-    /*background: ; ДОБАВИТЬ ГРАДИЕНТ!!!!!!!!!!!!!!!  */
 }
 .clients_block {
     display: inline-block;
@@ -336,6 +339,7 @@ body {
 }
 .block {
     margin-top: 20px;
+    box-shadow: inset 0 0 25px #e8ebf1;
 }
 .download {
     background: #e8fcfe;
@@ -357,17 +361,21 @@ body {
 .download_button {
     text-transform: uppercase;
     color: #0d0707;
-    background: #7fe2ec; /* ДОБАВИТЬ ГРАДИЕНТ !!!!!! */
+    background-image: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%); 
     font-weight: 600;
     text-decoration: none;
     padding: 20px 20px 20px 70px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #2aacc8;
     font-size: 18px;
     position: absolute;
     top: 37px;
     right: 40px;
     box-shadow: 0 4px 4px #bfd0d1;
+}
+.download_button:hover {
+    color: #fff;
+    transition-duration: 0.5s;
 }
 .download_button:active {
     box-shadow: none;
@@ -402,7 +410,7 @@ body {
     color: #363636;
     margin-top: 20px;
 }
-.explore_block, .browse_block, .contact_block {
+.explore_block, .browse_block, .contact_block, .connect, .social_icon {
     display: inline-block;
     vertical-align: top;
 }
@@ -418,5 +426,40 @@ body {
     line-height: 26px;
 }
 .about_block, .explore_block, .browse_block, .contact_block {
-    margin-right: 65px;
+    margin-right: 60px;
+}
+.contact_block {
+    width: 140px;
+    color: #363636; 
+    font-size: 14px;
+}
+.contact_name {
+    font-weight: 600;
+}
+.contact_address {
+    margin-top: 20px;
+}
+.connect {
+    width: 195px;
+}
+.social_media {
+    margin-top: 20px;
+}
+.social_icon {
+    margin-right: 13px;
+    margin-bottom: 5px;
+}
+.social_icon:nth-child(3), .social_icon:last-child {
+    margin-right: 0;
+}
+.disclaimer {
+    width: 650px;
+    font-size: 13px;
+    color: #363636;
+    margin: 20px 0 0 0;
+    float: left;
+}
+.logo_wrap_footer {
+   float: right;
+   margin-top: 5px;
 }
