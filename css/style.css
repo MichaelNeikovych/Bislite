@@ -52,7 +52,7 @@ body {
     vertical-align: middle;
     position: relative;
     text-transform: uppercase;
-    width: 115px;
+    margin-left: 10px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
 }
@@ -88,7 +88,7 @@ body {
 }
 .arrow_down {
     position: absolute;
-    right: 15px;
+    right: 5px;
     top: 20px;
 }
 .nav_items:hover {
