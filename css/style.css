@@ -17,6 +17,23 @@ body {
     clear: both;
     display: block;
 }
+.about_block, 
+.explore_block, 
+.browse_block, 
+.contact_block, 
+.connect, 
+.social_icon, 
+.download_text, 
+.download_button,
+.works_buttons,
+.advantages_block,
+.dropdown_block,
+.testimonials_title, 
+.clients_title,
+.clients_block {
+    display: inline-block;
+    vertical-align: top;
+}
 
 
 /* HEADER */
@@ -156,8 +173,6 @@ body {
 }
 .advantages_block {
     width: 220px;
-    display: inline-block;
-    vertical-align: top;
     margin-right: 40px;
 }
 .advantages_block:last-child {
@@ -235,7 +250,6 @@ body {
     height: 20px;
     background: #81e4ed;
     border-radius: 50%;
-    display: inline-block;
     margin-left: 8px;
     background-image: url('../img/arrow_left.png');
     background-position: 6px;
@@ -258,8 +272,6 @@ body {
 }
 .dropdown_block {
     overflow: hidden;
-    display: inline-block;
-    vertical-align: top;
     position: relative;
     margin-right: 40px;
 }
@@ -293,8 +305,6 @@ body {
 .testimonials_title, .clients_title {
     text-transform: uppercase;
     font-size: 15px;
-    display: inline-block;
-    vertical-align: top;
     margin: 25px 0 0 40px;
 }
 .testimonials_description::before {
@@ -330,10 +340,6 @@ body {
     padding-top: 18px;
     border: 1px solid #e8ebf1;
 }
-.clients_block {
-    display: inline-block;
-    vertical-align: top;
-}
 .vertical_align {
     padding-top: 30px;
 }
@@ -345,11 +351,8 @@ body {
     background: #e8fcfe;
     border: 1px solid #81e4ed;
     margin: 40px 0 40px;
-    position: relative;
 }
 .download_text {
-    display: inline-block;
-    vertical-align: top;
     font-size: 16px;
     line-height: 26px;
     color: #363636;
@@ -359,6 +362,7 @@ body {
     font-weight: 500;
 }
 .download_button {
+    position: relative;
     text-transform: uppercase;
     color: #0d0707;
     background-image: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%); 
@@ -368,10 +372,8 @@ body {
     border-radius: 10px;
     border: 1px solid #2aacc8;
     font-size: 18px;
-    position: absolute;
-    top: 37px;
-    right: 40px;
     box-shadow: 0 4px 4px #bfd0d1;
+    margin: 37px 0 0 75px;
 }
 .download_button:hover {
     color: #fff;
@@ -396,8 +398,6 @@ body {
 }
 .about_block {
     width: 240px;
-    display: inline-block;
-    vertical-align: top;
 }
 .footer_title {
     text-transform: uppercase;
@@ -409,10 +409,6 @@ body {
     font-size: 14px;
     color: #363636;
     margin-top: 20px;
-}
-.explore_block, .browse_block, .contact_block, .connect, .social_icon {
-    display: inline-block;
-    vertical-align: top;
 }
 .explore_brow_nav {
     list-style-type: none;
