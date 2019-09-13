@@ -30,7 +30,8 @@ body {
 .dropdown_block,
 .testimonials_title, 
 .clients_title,
-.clients_block {
+.clients_block,
+.arrow_down {
     display: inline-block;
     vertical-align: top;
 }
@@ -85,7 +86,7 @@ body {
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;
-    padding: 15px 20px 15px 10px;
+    padding: 10px;
 }
 .sub_menu_box {
     display: none;
@@ -104,9 +105,13 @@ body {
     border-top: 5px solid transparent;
 }
 .arrow_down {
-    position: absolute;
-    right: 5px;
-    top: 20px;
+    margin: 5px 0 0 5px;
+    background-image: url('../img/down-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 7px;
+    background-position: center;
+    width: 7px;
+    height: 5px;
 }
 .nav_items:hover {
     background: #fff;
